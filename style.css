@@ -1,0 +1,296 @@
+body{
+    font-family: 'Martel Sans', sans-serif;
+    margin: 0;
+    background-color: rgb(61, 61, 61);
+    
+    
+    
+    
+}
+main{
+    width: 100vh;
+    background-color: rgb(61, 61, 61);
+    
+    
+    overflow: auto;
+
+}
+
+.frontviewbeta{ 
+    display: flex;
+    flex-direction: column;
+    
+    height: 700px;
+    width: 100%; 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg');
+   }
+
+.one{
+    height: 15%;
+    
+}
+.two{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+.nflogo img{
+    height: 40px;
+    width: 148px;
+}
+.frontview-options{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 11%;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.select-logo{ /* later*/
+    height: 1.25rem;
+    width: 1.25rem;
+    position: absolute;
+    left: 66.7rem;
+    top: 2.6rem;
+    
+    
+    }
+
+@media(max-width:1300px){
+    .select-logo{
+        display: none;
+
+    }
+}
+
+
+
+select:focus {
+    outline: 2px solid white; 
+  }
+.frontview-options select{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 3px 18px 3px 30px ;
+    width: 8rem;
+    margin-right: 1.25rem;
+    font-weight: 600;
+    
+    
+}
+.frontview-options button{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: #E50914;
+    border-radius:5px;
+    border: none;
+    padding: 0.25rem 1rem ;
+    height: 2.2rem;
+    
+    font-weight: 700 ;
+}
+.frontview-options button:hover{
+    opacity: 0.9;
+}
+.emailsection{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    }
+.emailsection h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+}
+.emailsection p{
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0;
+
+}
+.emailoption{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.emailoption input{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 3px 18px 3px 30px ;
+    width: 20rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+
+}
+input:focus {
+    outline: 2px solid white; 
+  }
+.emailoption  button{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: #E50914;
+    border-radius:5px;
+    border: none;
+    
+    padding: 0.7rem 0.5rem ;
+    width: 10rem;
+    height: 3.4rem;
+    font-size: 1.2rem;
+    
+    font-weight: 700 ;
+}
+.emailoption  button:hover{
+    
+    opacity: 0.9;
+}
+.emailoption  img{
+    margin-top: 2px;
+}
+.enjoyontv{
+
+    margin-top: 10px ;
+    background-color: black;
+    padding: 4.5rem 0;
+    width: 100%;
+    height: auto;
+}
+.enjoytvcontainer{
+    margin: 0 32px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+
+
+}
+.enjoytvcontainer .imgndvid{
+    border: 3px solid grey;
+   
+
+}
+.titleenj h1{
+    
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+
+}
+.titleenj p{
+ 
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0;
+
+}
+
+.downloadleft span{
+    font-size: 5rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    color: #E50914;
+    
+}
+
+.faqcontainer{
+    
+    margin: 0 32px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.faqques{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.d-inline-flex{
+    margin: 1rem;
+}
+
+.d-inline-flex button{
+    width: 100vh;
+    height: 2rem;
+    background-color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 0;
+}
+.d-inline-flex button:hover{
+    background-color: rgb(61, 61, 61) ;
+}
+.d-inline-flex button:click{
+    background-color: rgb(61, 61, 61) ;
+}
+.d-inline-flex .collapse{
+    width: 100vh;
+
+}
+.footercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #FFFFFFB3;
+}
+.footercontainer  select{
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 3px 18px 3px 30px ;
+    width: 8rem;
+    margin-right: 1.25rem;
+    font-weight: 600;
+    
+    
+}
+.footercontainer a{
+    color: inherit;
+}
+.list ul{
+    list-style-type: none;
+    text-decoration: underline;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.list ul li{
+    padding: 0.5rem 1rem;
+}
+.nfind{
+    margin-top: 2rem;
+}
+
+
+
+
+
